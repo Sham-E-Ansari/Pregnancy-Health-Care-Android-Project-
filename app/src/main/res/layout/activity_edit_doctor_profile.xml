@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_edit_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:text="Edit Info."
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editDocNameET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_shape"
+                android:hint="Name"
+                android:padding="5dp"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/eidtDocMobileET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_shape"
+                android:hint="Mobile Number"
+                android:inputType="numberSigned"
+                android:padding="5dp"
+                android:textAlignment="center" />
+
+
+            <EditText
+                android:id="@+id/editDocPassET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_shape"
+                android:hint="password"
+                android:inputType="textEmailAddress"
+                android:padding="5dp"
+                android:textAlignment="center" />
+
+
+
+            <Button
+                android:id="@+id/saveDocBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="145dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border_shape"
+                android:text="Save" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

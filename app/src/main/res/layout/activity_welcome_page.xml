@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.example.joker.pregnancyhealthcare.WelcomePage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome!!!"
+            android:textSize="40sp"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:id="@+id/usernameET"
+            android:background="@drawable/border_shape"
+            android:hint="Username"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:padding="10sp"
+            android:id="@+id/userpasswordET"
+            android:background="@drawable/border_shape"
+            android:hint="Password"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login as"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/loginGrp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mother"
+                android:textSize="30sp"
+                android:id="@+id/motherRadgrp"
+                android:textColor="#eb8f0a"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Doctor"
+                android:textSize="30sp"
+                android:id="@+id/doctorRadgrp"
+                android:textColor="#eb8f0a"
+                />
+        </RadioGroup>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/border_shape"
+            android:layout_marginTop="20dp"
+            android:id="@+id/loginBtn"
+            android:layout_gravity="center_horizontal"
+            android:text="Login"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:id="@+id/regTV"
+            android:text="Don't Have Any Account? Register Here"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

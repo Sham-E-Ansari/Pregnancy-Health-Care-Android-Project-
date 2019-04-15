@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_edit_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:text="Edit Info."
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editNameET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_shape"
+                android:hint="Name"
+                android:padding="5dp"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/eidtMobileET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_shape"
+                android:hint="Mobile Number"
+                android:inputType="numberSigned"
+                android:padding="5dp"
+                android:textAlignment="center" />
+
+
+            <EditText
+                android:id="@+id/editEmailET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_shape"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:padding="5dp"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editEmer1ET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_shape"
+                android:hint="Emergency Number 1"
+                android:padding="5dp"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editEmer2ET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_shape"
+                android:hint="Emergency Number 2"
+                android:padding="5dp"
+                android:textAlignment="center" />
+
+            <Spinner
+                android:id="@+id/editBloodSP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_shape"
+                android:hint="Blood Group"
+                android:padding="10dp"
+                android:textAlignment="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editDobET"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border_shape"
+                    android:hint="Date of Birth"
+                    android:padding="5dp"
+                    android:textAlignment="center" />
+
+                <Button
+                    android:id="@+id/editDobBTN"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:background="@drawable/border_shape"
+                    android:text="Date" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editPlastDateET"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border_shape"
+                    android:hint="Last Date of Period"
+                    android:padding="5dp"
+                    android:textAlignment="center" />
+
+                <Button
+                    android:id="@+id/editdopBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:background="@drawable/border_shape"
+                    android:text="Date" />
+            </LinearLayout>
+            <EditText
+                android:id="@+id/editHeightET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_shape"
+                android:hint="Height(cm): "
+                android:padding="5dp"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editWeightET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_shape"
+                android:hint="Weight(kg): "
+                android:padding="5dp"
+                android:textAlignment="center" />
+            <EditText
+                android:id="@+id/editLocET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_shape"
+                android:hint="District"
+                android:padding="5dp"
+                android:textAlignment="center" />
+            <Button
+                android:id="@+id/saveBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="145dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border_shape"
+                android:text="Save" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

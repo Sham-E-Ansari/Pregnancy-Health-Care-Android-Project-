@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.joker.pregnancyhealthcare.FindPage">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="30dp"
+        android:id="@+id/addQusBtn"
+        android:text="ADD Question"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/border_shape"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/TopicSearchET"
+            android:background="@drawable/border_shape"
+            android:hint="Topic Search"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="30dp"
+            android:id="@+id/topicsearchBTN"
+            android:background="@drawable/search"
+            />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/quesListTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#000">
+    </ListView>
+
+
+
+</LinearLayout>

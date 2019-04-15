@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10sp"
+    tools:context="com.example.joker.pregnancyhealthcare.FirstTrimester">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/border_shape_gray"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.Anemia – Lower than normal number of healthy red blood cells"
+                android:textStyle="bold"
+                android:textSize="22sp"/>
+            <TextView
+                android:layout_marginTop="5sp"
+                android:textSize="20sp"
+                android:textColor="#ff3733"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Symptoms:
+*Feel tired or weak
+*Look pale
+*Feel faint
+*Shortness of breath"/>
+
+            <TextView
+                android:layout_marginTop="5sp"
+                android:layout_marginLeft="10sp"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Treatment : Treating the underlying cause of the anemia will help restore the number of healthy red blood cells. Women with pregnancy related anemia are helped by taking iron and folic acid supplements. Your doctor will check your iron levels throughout pregnancy to be sure anemia does not happen again."/>
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/border_shape_gray"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="2.Depression – Extreme sadness during pregnancy or after birth (postpartum)"
+                android:textStyle="bold"
+                android:textSize="22sp"/>
+            <TextView
+                android:layout_marginTop="5sp"
+                android:layout_marginLeft="10sp"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ff3733"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Symptoms:
+*Intense sadness
+*Helplessness and irritability
+*Appetite changes
+*Thoughts of harming self or baby"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="5sp"
+                android:text="Treatment : Women who are pregnant might be helped with one or a combination of treatment options, including:
+*Therapy
+*Support groups
+*Medicines
+A mother's depression can affect her baby's development, so getting treatment is important for both mother and baby. Learn more about depression during and after pregnancy."
+                android:textSize="20sp" />
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/border_shape_gray"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="3.Hyperemesis gravid arum (HG) – Severe, persistent nausea and vomiting during pregnancy — more extreme than 'Morning Sickness' "
+                android:textStyle="bold"
+                android:textSize="22sp"/>
+            <TextView
+                android:layout_marginTop="5sp"
+                android:layout_marginLeft="10sp"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ff3733"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Symptoms:
+*Nausea that does not go away
+*Vomiting several times every day
+*Weight loss
+*Reduced appetite
+*Dehydration
+*Feeling faint or fainting"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="5sp"
+                android:text="Treatment : Dry, bland foods and fluids together is the first line of treatment. Sometimes, medicines are prescribed to help nausea. Many women with HG have to be hospitalized so they can be fed fluids and nutrients through a tube in their veins. Usually, women with HG begin to feel better by the 20th week of pregnancy. But some women vomit and feel nauseated throughout all three trimesters."
+                android:textSize="20sp" />
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/border_shape_gray"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="4.Gestational diabetes – Too high blood sugar levels during pregnancy"
+                android:textStyle="bold"
+                android:textSize="22sp"/>
+            <TextView
+                android:layout_marginTop="5sp"
+                android:layout_marginLeft="10sp"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ff3733"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Symptoms:
+Usually, there are no symptoms. Sometimes, extreme thirst, hunger, or fatigue Screening test shows high blood sugar levels"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="5sp"
+                android:text="Treatment : Most women with pregnancy related diabetes can control their blood sugar levels by a following a healthy meal plan from their doctor. Some women also need insulin to keep blood sugar levels under control. Doing so is important because poorly controlled diabetes increases the risk of:
+*Preeclampsia
+*Early delivery
+*Cesarean birth
+*Having a big baby, which can complicate delivery
+*Baby born with low blood sugar, breathing problems, and jaundice"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

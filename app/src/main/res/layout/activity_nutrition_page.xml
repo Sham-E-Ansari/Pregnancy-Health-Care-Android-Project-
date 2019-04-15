@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.joker.pregnancyhealthcare.NutritionPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:text="Your age: "
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/nutAgeET"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:background="@drawable/border_shape"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:paddingTop="10dp"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:text="Your Weight: "
+            android:textColor="#000000"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="numberDecimal"
+            android:paddingLeft="10dp"
+            android:background="@drawable/border_shape"
+            android:id="@+id/nutWeightET"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_shape"
+        android:text="Calculate"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:id="@+id/nutritionCalBtn"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="70dp"
+            android:paddingTop="10dp"
+            android:text="You are on "
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nutweekTV"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:text=" 7"
+            android:textColor="#fd0000"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:text=" th week"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:paddingTop="10dp"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:text="You should eat  "
+            android:textColor="#000000"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="match_parent"
+            android:textSize="40dp"
+            android:text="0000"
+            android:id="@+id/nutCalTV"
+            android:textColor="#fd0000"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:paddingTop="10dp"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:text="  cal/day"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_shape"
+        android:text="Show Callory Chart"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:id="@+id/nutritionChartBtn"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

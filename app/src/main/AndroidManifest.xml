@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.joker.pregnancyhealthcare">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <uses-permission android:name="android.permission.CALL_PHONE" />
+        <uses-permission android:name="android.permission.SEND_SMS" />
+
+        <activity android:name=".WelcomePage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegistrationPage" />
+        <activity android:name=".HomePage" />
+        <activity android:name=".Profile" />
+        <activity android:name=".EditProfile" />
+        <activity android:name=".FindPage" />
+        <activity android:name=".Symptoms" />
+        <activity android:name=".FirstTrimester" />
+        <activity android:name=".SecTrimester" />
+        <activity android:name=".ThirdTrimester" />
+        <activity android:name=".WeightTracker" />
+        <activity android:name=".EmergencyPage" />
+        <activity android:name=".NutritionPage" />
+        <activity android:name=".DoctorHome" />
+        <activity android:name=".DoctorProfile" />
+        <activity android:name=".EditDoctorProfile" />
+        <activity android:name=".AddPost" />
+        <activity android:name=".CommentPage" />
+        <activity android:name=".AddComment"></activity>
+    </application>
+
+</manifest>

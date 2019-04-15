@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10sp"
+    tools:context="com.example.joker.pregnancyhealthcare.FirstTrimester">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/border_shape_gray"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.Preterm labor – Going into labor before 37 weeks of pregnancy"
+                android:textStyle="bold"
+                android:textSize="22sp"/>
+            <TextView
+                android:layout_marginTop="5sp"
+                android:textSize="20sp"
+                android:textColor="#ff3733"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Symptoms:
+*Increased vaginal discharge
+*Pelvic pressure and cramping
+*Back pain radiating to the abdomen
+*Contractions"/>
+
+            <TextView
+                android:layout_marginTop="5sp"
+                android:layout_marginLeft="10sp"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Treatment : Medicines can stop labor from progressing. Bed rest is often advised. Sometimes, a woman must deliver early. Giving birth before 37 weeks is called 'preterm birth.'Preterm birth is a major risk factor for future preterm births."/>
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/border_shape_gray"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="2.High blood pressure (pregnancy related) – High blood pressure that starts after 20 weeks of pregnancy and goes away after birth"
+                android:textStyle="bold"
+                android:textSize="22sp"/>
+            <TextView
+                android:layout_marginTop="5sp"
+                android:layout_marginLeft="10sp"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ff3733"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Symptoms:
+High blood pressure without other signs and symptoms of preeclampsia"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="5sp"
+                android:text="Treatment : The health of the mother and baby are closely watched to make sure high blood pressure is not preeclampsia."
+                android:textSize="20sp" />
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/border_shape_gray"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="3.Hepatitis B virus (HBV)
+A viral infection that can be passed to baby during birth. Newborns that get infected have a 90 percent chance of developing lifelong infection. This can lead to liver damage and liver cancer. A vaccine can keep newborns from getting HBV. But 1 in 5 newborns of mothers who are HBV positive don't get the vaccine at the hospital before leaving."
+                android:textStyle="bold"
+                android:textSize="22sp"/>
+            <TextView
+                android:layout_marginTop="5sp"
+                android:layout_marginLeft="10sp"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ff3733"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Symptoms:
+There may be no symptoms. Or symptoms can include:
+*Nausea, vomiting, and diarrhea
+*Dark urine and pale bowel movements
+*Whites of eyes or skin looks yellow"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="5sp"
+                android:text="Treatment : Lab tests can find out if the mother is a carrier of hepatitis B.
+You can protect your baby for life from HBV with the hepatitis B vaccine, which is a series of three shots:
+*First dose of hepatitis B vaccine plus HBIG shot given to baby at birth
+*Second dose of hepatitis B vaccine given to baby at 1-2 months’ old
+*Third dose of hepatitis B vaccine given to baby at 6 months old (but not before 24 weeks old)"
+
+                android:textSize="20sp" />
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/border_shape_gray"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="4.Influenza (flu)
+Flu is a common viral infection that is more likely to cause severe illness in pregnant women than in women who are not pregnant. Pregnant woman with flu also have a greater chance for serious problems for their unborn baby, including premature labor and delivery."
+                android:textStyle="bold"
+                android:textSize="22sp"/>
+            <TextView
+                android:layout_marginTop="5sp"
+                android:layout_marginLeft="10sp"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ff3733"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Symptoms:
+*Fever (sometimes) or feeling feverish/chills
+*Cough
+*Sore throat
+*Runny or stuffy nose
+*Muscle or body aches
+*Headaches
+*Feeling tired
+*Vomiting and diarrhea (sometimes)"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="5sp"
+                android:text="Treatment : Getting a flu shot is the first and most important step in protecting against flu. The flu shot given during pregnancy is safe and has been shown to protect both the mother and her baby (up to 6 months old) from flu. (The nasal spray vaccine should not be given to women who are pregnant.)
+If you get sick with flu-like symptoms call your doctor right away. If needed, the doctor will prescribe an antiviral medicine that treats the flu."
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

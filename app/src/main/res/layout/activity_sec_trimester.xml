@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10sp"
+    tools:context="com.example.joker.pregnancyhealthcare.FirstTrimester">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_shape_gray"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1.Ectopic pregnancy – When a fertilized egg implants outside of the uterus, usually in the fallopian tube"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5sp"
+                    android:text="Symptoms:
+*Abdominal pain
+*Shoulder pain
+*Vaginal bleeding
+*Feeling dizzy or faint"
+                    android:textAlignment="center"
+                    android:textColor="#ff3733"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="5sp"
+                    android:text="Treatment : With ectopic pregnancy, the egg cannot develop. Drugs or surgery is used to remove the ectopic tissue so your organs are not damaged."
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_shape_gray"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="2.Miscarriage – Pregnancy loss from natural causes before 20 weeks. As many as 20 percent of pregnancies end in miscarriage. Often, miscarriage occurs before a woman even knows she is pregnant"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="5sp"
+                    android:text="Symptoms:
+Signs of a miscarriage can include:
+*Vaginal spotting or bleeding
+*Cramping or abdominal pain
+*Fluid or tissue passing from the vagina"
+                    android:textAlignment="center"
+                    android:textColor="#ff3733"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="5sp"
+                    android:text="Treatment : In most cases, miscarriage cannot be prevented. Sometimes, a woman must undergo treatment to remove pregnancy tissue in the uterus. Counseling can help with emotional healing. See our section on Pregnancy loss."
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_shape_gray"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="3.Placenta Previa – Placenta covers part or entire opening of cervix inside of the uterus"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="5sp"
+                    android:text="Symptoms:
+*Painless vaginal bleeding during second or third trimester
+*For some, no symptoms"
+                    android:textAlignment="center"
+                    android:textColor="#ff3733"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="5sp"
+                    android:text="Treatment : If diagnosed after the 20th week of pregnancy, but with no bleeding, a woman will need to cut back on her activity level and increase bed rest. If bleeding is heavy, hospitalization may be needed until mother and baby are stable. If the bleeding stops or is light, continued bed rest is resumed until baby is ready for delivery. If bleeding doesn't stop or if preterm labor starts, baby will be delivered by cesarean section."
+                    android:textSize="20sp" />
+                </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/border_shape_gray"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="4.Preeclampsia – A condition starting after 20 weeks of pregnancy that causes high blood pressure and problems with the kidneys and other organs. Also called toxemia."
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="5sp"
+                    android:text="Symptoms:
+*High blood pressure
+*Swelling of hands and face
+*Too much protein in urine
+*Stomach pain
+*Blurred vision
+*Dizziness
+*Headaches"
+                    android:textAlignment="center"
+                    android:textColor="#ff3733"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="5sp"
+                    android:text="Treatment : The only cure is delivery, which may not be best for the baby. Labor will probably be induced if condition is mild and the woman is near term (37 to 40 weeks of pregnancy). If it is too early to deliver, the doctor will watch the health of the mother and her baby very closely. She may need medicines and bed rest at home or in the hospital to lower her blood pressure. Medicines also might be used to prevent the mother from having seizures."
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

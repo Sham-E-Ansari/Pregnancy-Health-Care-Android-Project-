@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context="com.example.joker.pregnancyhealthcare.RegistrationPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Registration"
+            android:textSize="30sp"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:id="@+id/uNameET"
+            android:padding="10dp"
+            android:hint="Name"
+            android:textSize="20sp"
+            android:background="@drawable/border_shape"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:id="@+id/uEmailET"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Email"
+            android:textSize="20sp"
+            android:background="@drawable/border_shape"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:id="@+id/uPassET"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Password"
+            android:textSize="20sp"
+            android:background="@drawable/border_shape"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:id="@+id/uPhoneET"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Phone"
+            android:textSize="20sp"
+            android:background="@drawable/border_shape"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:id="@+id/uEPhone1ET"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Emergency Phone Number 1"
+            android:textSize="20sp"
+            android:background="@drawable/border_shape"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:id="@+id/uEPhone2ET"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Emergency Phone Number 2"
+            android:textSize="20sp"
+            android:background="@drawable/border_shape"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_weight="1.0">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/border_shape"
+                android:padding="10dp"
+                android:layout_weight="0.1"
+                android:id="@+id/bDateET"
+                android:textSize="20sp"
+                android:hint="Date of Birth"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:text="PickDate"
+                android:id="@+id/bDateBtn"
+                android:background="@drawable/border_shape"
+                android:layout_weight="0.15"
+                />
+        </LinearLayout>
+
+        <Spinner
+            android:id="@+id/bloodgroupSP"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Blood Group"
+            android:layout_marginTop="10sp"
+            android:background="@drawable/border_shape"
+            android:textAlignment="center"/>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_weight="1.0">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/border_shape"
+                android:padding="10dp"
+                android:layout_weight="0.1"
+                android:id="@+id/pDateET"
+                android:textSize="20sp"
+                android:hint="Last Period Date"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:id="@+id/pDateBtn"
+                android:text="PickDate"
+                android:background="@drawable/border_shape"
+                android:layout_weight="0.15"
+                />
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:id="@+id/uHeightET"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Height(cm): "
+            android:textSize="20sp"
+            android:background="@drawable/border_shape"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:id="@+id/uPweightET"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Pre-pregnancy Weight(kg): "
+            android:textSize="20sp"
+            android:background="@drawable/border_shape"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:id="@+id/uLocET"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="District"
+            android:textSize="20sp"
+            android:background="@drawable/border_shape"
+            />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/border_shape"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Register"
+            android:id="@+id/regBtn"/>
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
